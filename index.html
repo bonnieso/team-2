@@ -1,0 +1,61 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Give a Point!</title>
+	<link rel="stylesheet" type= "text/css" href="style.css">
+    <link rel="stylesheet" href="bootstrap-3.3.4/dist/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap-3.3.4/dist/css/bootstrap-theme.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+<body>
+<nav class="navbar navbar-inverse" role="navigation">
+	<!-- Collect the nav links, forms, and other content for toggling -->
+	<div class="collapse navbar-collapse navbar-ex1-collapse">
+		<ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Users</a></li>
+			<li><a href="#">Rankings</a></li>
+			<li><a href="#">Logout</a></li>
+			</li>
+		</ul>
+	</div><!-- /.navbar-collapse -->
+</nav>
+    <h1>Give a Point!</h1>
+    <div class="search">
+        <span class="glyphicon glyphicon-search"></span>
+        <input placeholder='Search By Name' autocomplete="on"></input>
+    </div>
+    <div class="search">
+        <span>Reason:</span>
+        <select>
+            <option>Trivia</option>
+            <option>Social Media</option>
+            <option>9-1-1</option>
+            <option>Good Question</option>
+            <option>Other</option>
+        </select>
+    </div>
+    <div class="search">
+        <i>Points Remaining:</i><span> 3</span>
+    </div>
+        
+    <textarea id="other" col='5' row='10' placeholder="explain, please!"></textarea>
+    <div>
+        <button class="btn btn-success" type="submit">Submit</button>
+        <br><br>
+    </div>    
+    <footer class="footer">
+        <div class="container row">
+            <div class="col-md-4"></div>
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <p class="footer-heading">Gamification System</p>
+            </div>
+        </div>
+    </footer>
+    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="script.js"></script>
+    <script src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
+</body>
+</html>
