@@ -5,57 +5,126 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Give a Point!</title>
 	<link rel="stylesheet" type= "text/css" href="style.css">
-    <link rel="stylesheet" href="bootstrap-3.3.4/dist/css/bootstrap.css">
-    <link rel="stylesheet" href="bootstrap-3.3.4/dist/css/bootstrap-theme.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 </head>
-<body>
-<nav class="navbar navbar-inverse" role="navigation">
-	<!-- Collect the nav links, forms, and other content for toggling -->
-	<div class="collapse navbar-collapse navbar-ex1-collapse">
-		<ul class="nav navbar-nav navbar-right">
-			<li><a href="#">Users</a></li>
-			<li><a href="#">Rankings</a></li>
-			<li><a href="#">Logout</a></li>
-			</li>
-		</ul>
-	</div><!-- /.navbar-collapse -->
-</nav>
-    <h1>Give a Point!</h1>
-    <div class="search">
-        <span class="glyphicon glyphicon-search"></span>
-        <input placeholder='Search By Name' autocomplete="on"></input>
-    </div>
-    <div class="search">
-        <span>Reason:</span>
-        <select>
-            <option>Trivia</option>
-            <option>Social Media</option>
-            <option>9-1-1</option>
-            <option>Good Question</option>
-            <option>Other</option>
-        </select>
-    </div>
-    <div class="search">
-        <i>Points Remaining:</i><span> 3</span>
-    </div>
-        
-    <textarea id="other" col='5' row='10' placeholder="explain, please!"></textarea>
-    <div>
-        <button class="btn btn-success" type="submit">Submit</button>
-        <br><br>
-    </div>    
-    <footer class="footer">
-        <div class="container row">
-            <div class="col-md-4"></div>
-            <div class="col-md-4"></div>
-            <div class="col-md-4">
-                <p class="footer-heading">Gamification System</p>
-            </div>
-        </div>
-    </footer>
-    <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
-    <script src="script.js"></script>
-    <script src="bootstrap-3.3.4/js/bootstrap.min.js"></script>
-</body>
+	<body>
+	<nav class="navbar navbar-inverse" role="navigation">
+		<!-- Collect the nav links, forms, and other content for toggling -->
+		<div class="collapse navbar-collapse navbar-ex1-collapse">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="#">Users</a></li>
+				<li><a href="#">Rankings</a></li>
+				<li><a href="#">Logout</a></li>
+				</li>
+			</ul>
+		</div><!-- /.navbar-collapse -->
+	</nav>
+		<div class="container">
+		    <h1>Give a Point!</h1>
+		    <div class="row">
+		    	<div class="col-sm-12">
+				    <div class="search">
+				        <span class="glyphicon glyphicon-search"></span>
+				        <input placeholder='Search By Name' autocomplete="on"></input>
+				    </div>		
+		    	</div>
+		    </div>
+		    <div class="row user-row">
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+		    		<span>Collin Webb</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+		    		<span>Aliou Sidi Maiga</span>	
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Michael Sankovich</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Gerald Anekwe</span>
+		    	</div>
+		    </div>
+		    <div class="row user-row">
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Tania Leonian</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+		    		<span>Troy S. Wood</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Sean A. Blattenberger</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Perrin Clark</span>
+		    	</div>
+		    </div>
+		    <div class="row user-row">
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Loren Barrick</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Ryan Taylor</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Stanley Liu</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>	    	
+		    		<span>Trey Huffine</span>
+		    	</div>
+		    </div>
+		    <div class="row user-row">
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+			    	<span>Son Truong</span>
+		    	</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+		    		<span>Daniel Ward</span>
+	    		</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+		    		<span>Bonnie So</span>
+	    		</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+					<span>Dick Armstrong-Stoner</span>
+		    	</div>
+		    </div>
+		    <div class="row user-row">
+		    	<div class="col-sm-3 col-sm-offset-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+		    		<span>Sheryl Boughton</span>
+	    		</div>
+		    	<div class="col-sm-3">
+					<img class="user-img" src="user.png" alt="user"><br>
+			    	<span>Juan C. Barragan</span>
+		    	</div>
+		    </div>   
+		</div>
+	    <footer class="footer">
+	    	<div class="row">
+	            <div class="col-md-4"></div>
+	            <div class="col-md-4"></div>
+	            <div class="col-md-4">
+	                <p class="footer-heading">Gamification System</p>
+	            </div>
+	    	</div>
+	    </footer>
+	    <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>    
+	    <script src="script.js"></script>
+		<!-- Latest compiled and minified CSS -->
+	</body>
 </html>
