@@ -52,3 +52,16 @@ footer {
     float: right;
 }
 
+.search{
+    padding-bottom: 20px;
+}
+
+
+input[type="radio"] {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.reason-style{
+    padding: 20px;
+}
